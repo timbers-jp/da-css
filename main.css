@@ -198,6 +198,12 @@ img {
 @font-face {
     font-display: swap;
     font-family: Noto Sans JP;
+    font-style: medium;
+    font-weight: 500;
+}
+@font-face {
+    font-display: swap;
+    font-family: Noto Sans JP;
     font-style: bold;
     font-weight: 700;
 }
