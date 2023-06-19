@@ -169,6 +169,7 @@ img {
     outline: none
 }
 
+/*公式の記述
 @font-face {
     font-display: swap;
     font-family: Noto Sans JP;
@@ -183,6 +184,22 @@ img {
     font-style: normal;
     font-weight: 700;
     src: local("Noto Sans JP"),url(/assets/fonts/NotoSansJP-Bold.woff2) format("woff2"),url(/assets/fonts/NotoSansJP-Bold.woff) format("woff"),url(/assets/fonts/NotoSansJP-Bold.ttf) format("truetype"),url(/assets/fonts/NotoSansJP-Bold.otf) format("opentype")
+}
+*/
+
+/*fontをwebからダウンロード*/
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@font-face {
+    font-display: swap;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-display: swap;
+    font-family: Noto Sans JP;
+    font-style: normal;
+    font-weight: 700;
 }
 
 body {
